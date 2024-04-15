@@ -4,6 +4,7 @@ import BannerSlider from '../Components/BannerSlider/BannerSlider'
 import Section from '../Components/Section/Section'
 import CategoriesSlider from '../Components/CategoriesSlider/CategoriesSlider'
 import BrandsSlider from '../Components/BrandIcons/BrandIcons'
+import HomeCategory from '../Components/HomeCategory/HomeCategory'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Section/>
       <CategoriesSlider/>
       <BrandsSlider/>
+      <HomeCategory/>
     </div>
   )
 }
