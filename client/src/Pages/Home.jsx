@@ -2,6 +2,7 @@ import React from 'react'
 import LogoSlider from '../Components/LogoSlider/LogoSlider'
 import BannerSlider from '../Components/BannerSlider/BannerSlider'
 import Section from '../Components/Section/Section'
+import CategoriesSlider from '../Components/CategoriesSlider/CategoriesSlider'
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <LogoSlider/>
       <BannerSlider/>
       <Section/>
+      <CategoriesSlider/>
     </div>
   )
 }
