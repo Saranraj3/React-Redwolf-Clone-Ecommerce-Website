@@ -1,8 +1,11 @@
 import React from 'react'
+import LogoSlider from '../Components/LogoSlider/LogoSlider'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <LogoSlider/>
+    </div>
   )
 }
 
