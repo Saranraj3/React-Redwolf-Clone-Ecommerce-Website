@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import Product from './Components/HomeCategory/Product'
 import Login from './Pages/Login'
 import Signup from './Pages/Signup'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/product/:id' element={<Product/>} />
       </Routes>
+      <Footer/>
     </div>
   )
 }

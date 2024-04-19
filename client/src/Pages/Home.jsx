@@ -22,7 +22,6 @@ function Home() {
       <HomeCategory />
       <PressLogos />
       <Description />
-      <Footer/>
     </div>
   )
 }
