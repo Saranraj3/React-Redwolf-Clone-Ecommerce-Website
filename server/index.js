@@ -4,9 +4,14 @@ const cors = require('cors');
 require('dotenv').config();
 const { MONGODB_URL, PORT } = process.env;
 const app = express();
+const AuthRoute = require('./Routes/AuthRoute');
 
 app.use(express.json());
-app.use(cors);
+app.use(cors());
+
+//Route
+
+app.use('/api/auth', AuthRoute);
 
 
 mongoose
