@@ -37,10 +37,10 @@ const Navbar = () => {
           <img className='lg:h-4 lg:ml-2 absolute ' src={search} alt="" />
           <input className='xl:w-[13rem] xl:text-sm lg:h-[2rem] lg:w-[67%] lg:pl-[2rem] lg:text-xs border border-bordergray placeholder-gray-500 bg-backgroundgray cursor-pointer rounded-md ' type="search" placeholder='Search for Products,Shows Or Characters' />
         </div>
-        <div className='xl:ml-6 xl:gap-8 lg:h-7 lg: lg:mt-2 lg:gap-8 divide-x flex'>
+        <div className='xl:ml-6 xl:gap-8 lg:h-7 lg:mt-2 lg:gap-8 divide-x flex'>
           <img className='cursor-pointer' src={icon} alt="" />
           <img className='cursor-pointer' src={Location} alt="" />
-          <Link to='/login'><img className='cursor-pointer' src={User} alt="" /></Link>
+          <Link to='/login'><img className='cursor-pointer lg:h-7 lg:w-10 xl:w-7' src={User} alt="" /></Link>
           <img className='cursor-pointer' src={Cart} alt="" />
         </div>
       </nav>
