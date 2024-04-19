@@ -6,6 +6,7 @@ import Product from './Components/HomeCategory/Product'
 import Login from './Pages/Login'
 import Signup from './Pages/Signup'
 import Footer from './Components/Footer/Footer'
+import Account from './Pages/Account'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
+        <Route path='/account' element={<Account/>}/>
         <Route path='/product/:id' element={<Product/>} />
       </Routes>
       <Footer/>

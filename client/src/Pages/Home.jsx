@@ -8,7 +8,6 @@ import HomeCategory from '../Components/HomeCategory/HomeCategory'
 import ProductList from '../Components/ProductList/ProductList'
 import PressLogos from '../Components/PressLogos/PressLogos'
 import Description from '../Components/Description/Description'
-import Footer from '../Components/Footer/Footer'
 
 function Home() {
   return (
