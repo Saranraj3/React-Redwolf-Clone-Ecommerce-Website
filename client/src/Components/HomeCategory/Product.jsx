@@ -8,7 +8,7 @@ import pinterest from '../../Assets/Png/pinterest.png'
 import addnew from '../../Assets/Png/add-new.png'
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
-import { useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 
 function Product() {
     const [details, setDetails] = useState({});
@@ -21,7 +21,6 @@ function Product() {
     useEffect(() => {
         setDetails(Location.state.item)
     }, []);
-
     return (
         <div className='mt-5'>
             <h1 className='text-2xl font-semibold text-gray-800 ml-[5rem]'>{details.title}</h1>
