@@ -37,9 +37,9 @@ function LogoSlider() {
   };
 
   return (
-    <div className=''>
+    <div className='absolute'>
       <Slider {...settings} className='overflow-x-hidden w-[80rem] ml-8 '>
-        <div className=''>
+        <div>
           <img className='pl-8' src={spiderman} alt="" />
         </div>
         <div className=''>

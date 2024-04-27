@@ -35,7 +35,7 @@ async function UserLoginController(req, res) {
                 secure: true
             }
             res.cookie('token', token, tokenOption).json({
-                message: 'Login Successfully',
+                message: 'Login Successfully Created',
                 data: token,
                 success: true,
                 error: false

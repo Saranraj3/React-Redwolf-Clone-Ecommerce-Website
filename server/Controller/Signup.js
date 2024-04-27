@@ -43,7 +43,7 @@ async function UserSignupController(req, res) {
             data: SaveUser,
             success: true,
             error: false,
-            message: 'User Created Successfully',
+            message: 'Register Successfully Created',
         })
 
     } catch (err) {

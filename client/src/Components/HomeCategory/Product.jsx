@@ -20,7 +20,7 @@ function Product() {
     const Location = useLocation();
     useEffect(() => {
         setDetails(Location.state.item)
-    }, []);
+    }, [Location.state.item]);
     return (
         <div className='mt-5'>
             <h1 className='text-2xl font-semibold text-gray-800 ml-[5rem]'>{details.title}</h1>
@@ -33,7 +33,6 @@ function Product() {
                     <img className='object-contain mt-[29rem] ml-[0.6rem] w-[21rem]' src={details.im1} alt="" />
                     <img className='object-contain mt-[29rem] ml-[0.6rem] w-[21rem]' src={details.im2} alt="" />
                 </span>
-
                 <div>
                     <h1 className='text-nowrap mt-2 ml-3 text-2xl font-semibold text-gray-800'>{details.secondtitle}</h1>
                     <p className='mt-[0.5rem] ml-3 max-w-[28rem] text-[16px] text-footercolor'>{details.description}</p>

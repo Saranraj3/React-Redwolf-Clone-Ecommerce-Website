@@ -6,8 +6,11 @@ import { toast } from "react-toastify";
 
 function Login() {
 
-    const navigate = useNavigate();
+    const Google = () => {
+        window.open("http://localhost:5050/auth/google", "_self");
+    };
 
+    const navigate = useNavigate();
     const [data, setData] = useState({
         Email: '',
         Password: '',
@@ -23,30 +26,24 @@ function Login() {
         });
     };
 
-
     const HandleOnSubmit = async (e) => {
         e.preventDefault()
-
         const dataresponse = await fetch(API.Login.url, {
             method: API.Login.method,
-            credentials:'include',
+            credentials: 'include',
             headers: {
                 "content-type": "application/json"
             },
             body: JSON.stringify(data)
         })
-
         const dataAPI = await dataresponse.json()
-
         if (dataAPI.success) {
             toast.success(dataAPI.message)
             navigate('/account')
         }
-
         if (dataAPI.error) {
             toast.error(dataAPI.message)
         }
-
     }
 
     return (
@@ -70,12 +67,11 @@ function Login() {
                     <p className='text-sm  absolute px-3 font-light text-gray-900 -translate-x-1/2 bg-white left-1/2 '>OR</p>
                 </div>
                 <p className='sm:text-sm text-center text-footercolor'>SIGN IN WITH A SOCIAL ACCOUANT</p>
-                <button className='sm:ml-[5rem] md:ml-[35rem] hover:opacity-80 relative pl-5 mt-5 rounded-sm font-bold text-white bg-blue-600 w-[15rem] h-[2.5rem] '>Sign Up With Google</button>
+                <button onClick={Google} className='sm:ml-[5rem] md:ml-[35rem] hover:opacity-80 relative pl-5 mt-5 rounded-sm font-bold text-white bg-blue-600 w-[15rem] h-[2.5rem] '>Login With Google</button>
                 <img className='sm:ml-[5.2rem] md:ml-[35.1rem]  absolute mt-[-2.3rem] bg-white w-[2.1rem] h-[2.1rem] ' src={google} alt="" />
                 <p className='text-xs mt-5 text-center text-footercolor '>By creating an account,your agreeing to our<span className='ml-1 text-xs text-Red'>Privacy Policy.</span></p>
             </form>
         </div>
-
     )
 }
 
