@@ -12,8 +12,18 @@ import smmenu from '../../Assets/Png/sm-menu.png'
 import smcart from '../../Assets/Png/sm-cart.png'
 
 const Navbar = ({ user }) => {
-  const logout = () => {
-    window.open("http://localhost:5050/auth/logout", "_self");
+
+
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  // Function to handle mouse enter event
+  const handleMouseEnter = () => {
+    setShowDropdown(true);
+  };
+
+  // Function to handle mouse leave event
+  const handleMouseLeave = () => {
+    setShowDropdown(false);
   };
 
   const [profilesuggest, setProfilesuggest] = useState(false)
@@ -52,26 +62,15 @@ const Navbar = ({ user }) => {
           <img className='cursor-pointer ' src={Location} alt="" />
           <div className='flex'>
             {user ? (
-              <div>
-                <img className='absolute rounded-full cursor-pointer lg:h-7 lg:w-10 xl:w-7 ml-[rem]' src={user.photos[0].value} alt="" />
-                <div className='relative bg- text-Red mt-4'>
-              <ul className='cursor-pointer'>
-                  <li onClick={logout}>LOG OUT</li>
-                  <li>ACCOUNT</li>
-                  <li>WISH LIST</li>
-                  <li>WALLET</li>
-                  <li>ORDERS</li>
-                </ul>
-                </div>
-                 
-              
+              <div className=' relative '>
+               <Link to='/account'>   <img  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=' rounded-full cursor-pointer lg:h-7 lg:w-10 xl:w-7' src={user.photos[0].value} alt="" /></Link>
               </div>
             ) :
               <Link to='/login'><img className='cursor-pointer lg:h-7 lg:w-10 xl:w-7' src={User} alt="" /></Link>
             }
           </div>
-          <div>
-            <img className='absolute cursor-pointer lg:h-7 lg:w-10 xl:w-7 ml-2' src={Cart} alt="" />
+          <div className=''>
+            <img className='absolute cursor-pointer lg:h-7 lg:w-10 xl:w-7 ' src={Cart} alt="" />
             <p className='bg-black text-white text-center w-[1.3rem] size-[23px] rounded-[23px] mt-[-0.4rem] ml-5 relative'>0</p>
           </div>
         </div>

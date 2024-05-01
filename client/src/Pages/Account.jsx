@@ -1,7 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { FaHome } from "react-icons/fa";
+
 function Account() {
+
+    const logout = () => {
+        window.open("http://localhost:5050/auth/logout", "_self");
+      };
+    
     return (
         <div>
             <h1 className='mt-3 text-gray-800 text-center text-2xl font-bold'>WELCOME, YOUNG WOLF!</h1>
@@ -34,7 +40,7 @@ function Account() {
                         <li className='hover:text-Red cursor-pointer'>Change Password</li>
                         <li className='hover:text-Red cursor-pointer'>Manage Address Book</li>
                         <li className='hover:text-Red cursor-pointer'>Delete Account</li>
-                        <li className='hover:text-Red cursor-pointer'>Log Out</li>
+                        <li onClick={logout} className='hover:text-Red cursor-pointer'>Log Out</li>
                     </ul>
                 </div>
             </div>
