@@ -1,7 +1,4 @@
 import React from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import batman from '../../Assets/Logos/batman-merchandise-india 1.jpg'
 import dc from '../../Assets/Logos/dc-comics-merchandise2.jpg'
 import harry from '../../Assets/Logos/harry-potter-merchandise.jpg'
@@ -25,84 +22,30 @@ import marvel from '../../Assets/Logos/marvel-merchandise-india.jpg'
 import loki from '../../Assets/Logos/Loki-logo.jpg'
 
 function LogoSlider() {
-  const settings = {
-    dots: false,
-    speed: 500,
-    infinite: true,
-    slidesToShow: 10,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    pauseOnHover: false,
-  };
 
   return (
-    <div className=''>
-      <Slider {...settings} className='overflow-x-hidden w-[80rem] ml-8 '>
-        <div>
-          <img className='pl-8' src={spiderman} alt="" />
-        </div>
-        <div className=''>
-          <img className='pl-8' src={naruto} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={marvel} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={loki} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={batman} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={dc} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={harry} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={ben10} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={rick} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={gameofthrones} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={deadpool} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={garfield} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={isro} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={superman} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={cartoon} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={friends} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={nasa} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={starwars} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={disney} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={tomandjerry} alt="" />
-        </div>
-        <div>
-          <img className='pl-8' src={peanuts} alt="" />
-        </div>
-      </Slider>
+    <div className='flex sm:w-[15rem] sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-1'>
+          <img className='' src={spiderman} alt="" />
+          <img className='' src={naruto} alt="" />
+          <img className='' src={marvel} alt="" />
+          <img className='' src={loki} alt="" />
+          <img className='' src={batman} alt="" />
+          <img className='' src={dc} alt="" />
+          <img className='' src={harry} alt="" />
+          <img className='' src={ben10} alt="" />
+          <img className='' src={rick} alt="" />
+          <img className='' src={gameofthrones} alt="" />
+          <img className='' src={deadpool} alt="" />
+          <img className='' src={garfield} alt="" />
+          <img className='' src={isro} alt="" />
+          <img className='' src={superman} alt="" />
+          <img className='' src={cartoon} alt="" />
+          <img className='' src={friends} alt="" />
+          <img className='' src={nasa} alt="" />
+          <img className='' src={starwars} alt="" />
+          <img className='' src={disney} alt="" />
+          <img className='' src={tomandjerry} alt="" />
+          <img className='' src={peanuts} alt="" />
     </div>
   )
 }

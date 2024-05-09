@@ -33,7 +33,7 @@ function CategoriesSlider() {
     <div>
       <h1 className='sm:mt-[2rem] sm:text-center text-2xl font-extrabold  text-gray-700 ' >FEATURED CATEGORIES</h1>
       <p className='sm:text-[1.1rem] sm:text-center sm:mt-1 font-light italic text-gray-700 '>Discover amazing designs by artists from all over the globe!</p>
-      <div className=' p-2 m-[4rem] mt-0'>
+      <div className='sm:m-1 p-2 lg:m-[4rem] lg:mt-[1rem] '>
         <Slider {...settings} className='gap-y-2'>
           <div className='relative'>
             <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>T-SHIRTS</p>
@@ -65,7 +65,7 @@ function CategoriesSlider() {
           </div>
         </Slider>
       </div>
-      <div className='m-[4rem] mt-[-4.4rem]'>
+      <div className='sm:m-3 sm:mt-[-1.2rem] lg:m-[4.5rem] lg:mt-[-5rem]'>
         <Slider {...settings} >
           <div className='relative'>
             <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[9rem] rounded-md bg-red-600 text-white'>SWEATSHIRTS</p>

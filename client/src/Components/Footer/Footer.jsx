@@ -43,14 +43,14 @@ function Footer() {
         <p className='  md:ml-[20rem] sm:ml-[3rem] sm:mt-3 sm:text-footercolor sm:text-sm' >Contact Us</p>
         <p className='  md:ml-[20rem] sm:ml-[2rem] sm:mt-1 sm:text-footercolor sm:text-sm'>Request A Return</p>
       </div>
-      <div className='xl:mr-[14rem]'>
+      <div className='xl:mr-[14rem] lg:mr-[-4rem] md:mr-[-17rem]'>
         <h3 className='md:mt-[-4.7rem] md:text-center sm:text-right sm:mr-[3rem] sm:mt-[-4.5rem] sm:text-white sm:text-sm '>My Account</h3>
         <p className='md:text-center sm:text-right sm:mr-[3rem] sm:sm:text-footercolor sm:text-sm sm:mt-1  '>My Account</p>
         <p className='md:text-center sm:text-right sm:mr-[2.6rem] sm:text-footercolor sm:text-sm sm:mt-1  '>Order History</p>
         <p className='md:text-center sm:text-right sm:mr-[3rem] sm:text-footercolor sm:text-sm sm:mt-1 '>Newslatter</p>
       </div>
       <div >
-        <h3 className=' sm:text-center sm:mt-[2rem] sm:text-sm text-white'>Social</h3>
+        <h3 className='md:mr-[2rem] sm:text-center sm:mt-[2rem] sm:text-sm text-white'>Social</h3>
         <div className=' sm:ml-[47%] sm:w-8 items-center justify-center sm:gap-8 flex' >
           <img className=' hover:opacity-30' src={facebook} alt="" />
           <img className=' hover:opacity-30' src={twitter} alt="" />

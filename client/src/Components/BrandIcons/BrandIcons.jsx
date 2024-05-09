@@ -22,9 +22,9 @@ function BrandsSlider() {
         pauseOnHover: false,
     };
     return (
-        <div className='overflow-x-hidden mt-[-3rem] '>
-            <h1 className='text-2xl font-extrabold text-center text-gray-700' >FEATURED BRANDS</h1>
-            <Slider className='overflow-x-hidden mt-5 m-[4rem] ml-[5.5rem]' {...settings}>
+        <div className='overflow-x-hidden lg:mt-[-13rem] '>
+            <h1 className='lg:mt-[10rem] text-2xl font-extrabold text-center text-gray-700' >FEATURED BRANDS</h1>
+            <Slider className='sm:m-1 sm:mt-[1rem] md:m-3 lg:mt-[1.5rem] lg:m-3 xl:m-5 xl:ml-[3rem] overflow-x-hidden ' {...settings}>
                 <div>
                     <img className='' src={marvel} alt="" />
                 </div>
