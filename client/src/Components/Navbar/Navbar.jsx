@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import redwolftitlegif from '../../Assets/Png/rw-logo-gif-transparent-red.gif'
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -14,23 +14,6 @@ import smcart from '../../Assets/Png/sm-cart.png'
 const Navbar = ({ user }) => {
 
 
-  const [showDropdown, setShowDropdown] = useState(false);
-
-  // Function to handle mouse enter event
-  const handleMouseEnter = () => {
-    setShowDropdown(true);
-  };
-
-  // Function to handle mouse leave event
-  const handleMouseLeave = () => {
-    setShowDropdown(false);
-  };
-
-  const [profilesuggest, setProfilesuggest] = useState(false)
-
-  const ProfileChange = () => {
-    setProfilesuggest(!profilesuggest)
-  }
 
   return (
     <div className='sticky top-0 z-10 h-[2.5rem] bg-white overflow-y-hidden overflow-x-hidden'>
@@ -63,7 +46,7 @@ const Navbar = ({ user }) => {
           <div className='flex'>
             {user ? (
               <div className=' relative '>
-               <Link to='/account'>   <img  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=' rounded-full cursor-pointer lg:h-7 lg:w-10 xl:w-7' src={user.photos[0].value} alt="" /></Link>
+               <Link to='/account'><img className=' rounded-full cursor-pointer lg:h-7 lg:w-10 xl:w-7' src={user.photos[0].value} alt="" /></Link>
               </div>
             ) :
               <Link to='/login'><img className='cursor-pointer lg:h-7 lg:w-10 xl:w-7' src={User} alt="" /></Link>
