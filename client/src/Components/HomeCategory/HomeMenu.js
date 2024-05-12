@@ -1,3 +1,31 @@
+import fireandblood from '../../Assets/ProductImages/HomeProductImages/37/got-hotd-fire-and-blood-t-shirt-india.jpg';
+import gameofthroneslion from '../../Assets/ProductImages/HomeProductImages/38/game-of-thrones-the-lion-and-the-sheep-t-shirt-india.jpg';
+import gameofthronesregion from '../../Assets/ProductImages/HomeProductImages/39/game-of-thrones-fire-will-reign-t-shirt-india.jpg';
+import deadpoolwolverin from '../../Assets/ProductImages/HomeProductImages/40/deadpool-wolverine-logo-t-shirt-india.jpg';
+import wayneenterprises from '../../Assets/ProductImages/HomeProductImages/41/WAYNE ENTERPRISES - BATMAN OFFICIAL .jpg';
+import spidermanlogo from '../../Assets/ProductImages/HomeProductImages/42/spider-trio-logo-t-shirt-india.jpg';
+import strawhatpirate from '../../Assets/ProductImages/HomeProductImages/43/straw-hat-pirate-drop-cut-t-shirt-india.jpg';
+import jokerlaugh from '../../Assets/ProductImages/HomeProductImages/44/THE DARK KNIGHT: JOKER LAUGH - JOKER OFFICIAL DROP CUT T-SHIRT .jpg';
+import whysoserious from '../../Assets/ProductImages/HomeProductImages/45/WHY SO SERIOUS - JOKER OFFICIAL.jpg';
+import spidermansociety from '../../Assets/ProductImages/HomeProductImages/46/spider-society-pursuit.jpg';
+import spidermanhoodie from '../../Assets/ProductImages/HomeProductImages/47/marvel-spider-man-trio-logo-hoodie-india-back.jpg';
+import punisherhoodie from '../../Assets/ProductImages/HomeProductImages/48/marvel-frank-castle-the-punisher-hoodie-india.jpg';
+import deadpool from '../../Assets/ProductImages/HomeProductImages/29/marvel-deadpool-degenerate-t-shirt-india.jpg';
+import supermandropcut from '../../Assets/ProductImages/HomeProductImages/30/last-son-of-krypton-drop-cut-t-shirt.jpg';
+import batmanvengencehoodie from '../../Assets/ProductImages/HomeProductImages/31/I AM BATMAN - BATMAN OFFICIAL HOODIE .jpg';
+import heartpirateslogo from '../../Assets/ProductImages/HomeProductImages/32/heart-pirates-logo-t-shirt-india.jpg';
+import harrypotterhoodie from '../../Assets/ProductImages/HomeProductImages/33/harry-potter-hogwarts-college-hoodie-india.jpg';
+import friendstshirt from '../../Assets/ProductImages/HomeProductImages/34/friends-infographic-quotes-t-shirts-india.jpg';
+import friendsicon from '../../Assets/ProductImages/HomeProductImages/35/friends-icons-t-shirt-india.jpg';
+import harrypotterdropcut from '../../Assets/ProductImages/HomeProductImages/36/harry-potter-gryffindor-drop-cut-back.jpg';
+import batmandropcut from '../../Assets/ProductImages/HomeProductImages/22/batman-i-am-the-night-drop-cut-t-shirt.jpg';
+import amzingspidey from '../../Assets/ProductImages/HomeProductImages/21/amazing-spidey-drop-cut-t-shirt-india.jpg';
+import blackpantherdropcut from '../../Assets/ProductImages/HomeProductImages/23/black-panther-suit-drop-cut-t-shirt-india.jpg';
+import batmanhoodie from '../../Assets/ProductImages/HomeProductImages/24/dc-batman-dark-knight-age-of-heroes-hoodie.jpg';
+import dcbatmanlogo from '../../Assets/ProductImages/HomeProductImages/25/dc-comics-batman-red-logo-hoodie-india.jpg';
+import avengersspacesuit from '../../Assets/ProductImages/HomeProductImages/26/avengers-space-suit-drop-cut-t-shirt.jpg';
+import animelegends from '../../Assets/ProductImages/HomeProductImages/27/anime-legends-t-shirt-india.jpg';
+import deadpoolcard from '../../Assets/ProductImages/HomeProductImages/28/deadpool-card-t-shirt-india.jpg';
 import naruto from '../../Assets/ProductImages/HomeProductImages/1/naruto-akatsuki-clouds-hoodie-india.jpg'
 import spiderman from '../../Assets/ProductImages/HomeProductImages/2/spider-man-super-suit-t-shirt-india.jpg'
 import justiceleague from '../../Assets/ProductImages/HomeProductImages/3/justice-league-the-squad-oversized-t-shirt-india.jpg'
@@ -179,6 +207,230 @@ let HomePage = [
         brand: 'Sweatshirt',
         newprice: 'Rs. 899',
         oldprice: 'Rs. 1,999',
+    },
+    {
+        id: 21,
+        image: batmandropcut,
+        name: 'Batman I am The Night Drop Cut ...',
+        brand: 'Drop Cut',
+        newprice: 'Rs. 799',
+        oldprice: 'Rs. 1,599',
+    },
+    {
+        id: 22,
+        image: amzingspidey,
+        name: 'Amazing Spiderman Drop Cut ...',
+        brand: 'Drop Cut',
+        newprice: 'Rs. 999',
+        oldprice: 'Rs. 1,199',
+    },
+    {
+        id: 23,
+        image: blackpantherdropcut,
+        name: 'Black Panther Drop Cut ...',
+        brand: 'Drop Cut',
+        newprice: 'Rs. 859',
+        oldprice: 'Rs. 1,999',
+    },
+    {
+        id: 24,
+        image: batmanhoodie,
+        name: 'Batman Dark Night Heros  ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 699',
+        oldprice: 'Rs. 999',
+    },
+    {
+        id: 25,
+        image: dcbatmanlogo,
+        name: 'Dc Batman Red Logo Hoodie ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 689',
+        oldprice: 'Rs. 899',
+    },
+    {
+        id: 26,
+        image: avengersspacesuit,
+        name: 'Avengers Space Suit Drop Cut ...',
+        brand: 'Drop Cut',
+        newprice: 'Rs. 689',
+        oldprice: 'Rs. 899',
+    },
+    {
+        id: 27,
+        image: animelegends,
+        name: 'Anime Legends T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 989',
+        oldprice: 'Rs. 1,299',
+    },
+    {
+        id: 28,
+        image: deadpoolcard,
+        name: 'Deadpool Catd T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 859',
+        oldprice: 'Rs. 799',
+    },
+    {
+        id: 29,
+        image: deadpool,
+        name: 'Deadpool Degenerate T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 789',
+        oldprice: 'Rs. 889',
+    },
+    {
+        id: 30,
+        image: supermandropcut,
+        name: 'Superman Krypto Son T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 799',
+        oldprice: 'Rs. 999',
+    },
+    {
+        id: 31,
+        image: batmanvengencehoodie,
+        name: 'Batman Vengence Hoodie ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 999',
+        oldprice: 'Rs. 1,239',
+    },
+    {
+        id: 32,
+        image: heartpirateslogo,
+        name: 'Heart Pirates Logo ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 889',
+        oldprice: 'Rs. 999',
+    },
+    {
+        id: 33,
+        image: harrypotterhoodie,
+        name: 'Harry Potter Hoodie ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 699',
+        oldprice: 'Rs. 989',
+    },
+    {
+        id: 34,
+        image: friendstshirt,
+        name: 'Friends Infographic T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 789',
+        oldprice: 'Rs. 989',
+    },
+    {
+        id: 35,
+        image: friendsicon,
+        name: 'Friends Icons T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 699',
+        oldprice: 'Rs. 899',
+    },
+    {
+        id: 36,
+        image: harrypotterdropcut,
+        name: 'Harrt Potter Dropcut ...',
+        brand: 'Drop Cut',
+        newprice: 'Rs. 499',
+        oldprice: 'Rs. 949',
+    },
+    {
+        id: 37,
+        image: fireandblood,
+        name: 'Fire and Blood Got T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 639',
+        oldprice: 'Rs. 929',
+    },
+    {
+        id: 38,
+        image: gameofthroneslion,
+        name: 'Game Of Thrones Lion and The Sheep T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 919',
+        oldprice: 'Rs. 1,099',
+    },
+    {
+        id: 39,
+        image: gameofthronesregion,
+        name: 'Game of Thrones Region T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 999',
+        oldprice: 'Rs. 1,209',
+    },
+    {
+        id: 40,
+        image: deadpoolwolverin,
+        name: 'Deadpool vs Wolverin T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 689',
+        oldprice: 'Rs. 999',
+    },
+    {
+        id: 41,
+        image: wayneenterprises,
+        name: 'Wayne Enterprises Batman ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 979',
+        oldprice: 'Rs. 1,888',
+    },
+    {
+        id: 42,
+        image: spidermanlogo,
+        name: 'Amazing Spiderman Logo T-shirt ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 699',
+        oldprice: 'Rs. 929',
+    },
+    {
+        id: 43,
+        image: strawhatpirate,
+        name: 'Straw Hat Pirate One Piece  ...',
+        brand: 'Drop Cut',
+        newprice: 'Rs. 619',
+        oldprice: 'Rs. 741',
+    },
+    {
+        id: 44,
+        image: jokerlaugh,
+        name: 'The Dark Knight Joker Laugh ...',
+        brand: 'Drop Cut',
+        newprice: 'Rs. 899',
+        oldprice: 'Rs. 1,389',
+    },
+    {
+        id: 45,
+        image: whysoserious,
+        name: 'Why So Serious ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 499',
+        oldprice: 'Rs. 723',
+    },
+    {
+        id: 46,
+        image: spidermansociety,
+        name: 'Spiderman Society T-shirt In India ...',
+        brand: 'T-shirt',
+        newprice: 'Rs. 633',
+        oldprice: 'Rs. 888',
+    },
+    {
+        id: 47,
+        image: spidermanhoodie,
+        name: 'Spiderman Hoodie T-shirt In India ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 619',
+        oldprice: 'Rs. 844',
+    },
+    {
+        id: 48,
+        image: punisherhoodie,
+        name: 'Punisher Hoodie T-shirt In India ...',
+        brand: 'Hoodie',
+        newprice: 'Rs. 992',
+        oldprice: 'Rs. 1,333',
     },
 ]
 
