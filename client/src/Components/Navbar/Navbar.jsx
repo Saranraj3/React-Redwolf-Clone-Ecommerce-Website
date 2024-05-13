@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import redwolftitlegif from '../../Assets/Png/rw-logo-gif-transparent-red.gif'
 import { RiArrowDropDownLine } from "react-icons/ri";
 import search from '../../Assets/Png/searchicon.png'
@@ -24,7 +23,7 @@ const Navbar = ({ user }) => {
         <img src={smcart} alt="" />
       </div>
       <nav className='lg:mt-[-2.5rem] lg:visible sm:invisible flex'>
-        <Link to='/'><p className='xl:w-[11rem] lg:h-[3rem] lg:w-[11rem] lg:pt-1 lg:text-2xl lg:text-center font-extrabold text-white bg-Red'>𝑅𝐸𝒟𝒲𝒪𝐿𝐹</p></Link>
+        <p className='xl:w-[11rem] lg:h-[3rem] lg:w-[11rem] lg:pt-1 lg:text-2xl lg:text-center font-extrabold text-white bg-Red'>𝑅𝐸𝒟𝒲𝒪𝐿𝐹</p>
         <img className='xl:ml-[-9.5rem] lg:w-[8rem] lg:h-9 lg:ml-[-9.2rem] opacity-0 transition-opacity duration-300 transform hover:opacity-100 cursor-pointer ' src={redwolftitlegif} alt="" />
         <ul className='xl:ml-[3rem] xl:gap-4 xl:text-sm lg:ml-8 lg:mt-3 lg:gap-1 lg:text-xs font-extrabold flex'>
           <li className=' cursor-pointer flex hover:text-Red'>SHOP<RiArrowDropDownLine className='lg:h-7 lg:w-7' /></li>
