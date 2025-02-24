@@ -13,8 +13,6 @@ function Home() {
     <div>
       <BannerSlider />
       <Section />
-      <CategoriesSlider />
-      <BrandsSlider />
       <ProductList />
       <HomeCategory />
       <PressLogos />
