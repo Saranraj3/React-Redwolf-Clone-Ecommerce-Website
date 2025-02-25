@@ -7,7 +7,7 @@ function Section() {
       <p className="sm:text-center sm:mt-6 font-extrabold text-nowrap text-2xl text-gray-700">
         FEATURED THEMES
       </p>
-      <div className="sm:grid sm:grid-cols-3 m-2 gap-2 mt-5 md:grid md:grid-cols-5 text-center">
+      <div className="sm:grid sm:grid-cols-3 m-2 gap-2 mt-5 md:grid md:grid-cols-6 text-center">
         {sectiontype.map((item, index) => {
           return (
             <div key={index}>
