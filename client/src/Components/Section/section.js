@@ -25,6 +25,10 @@ let sectiontype = [
     image: lightNovel,
     name: "Light Novel",
   },
+  {
+    image: anime,
+    name: "Manga",
+  },
 ];
 
 export default sectiontype;
