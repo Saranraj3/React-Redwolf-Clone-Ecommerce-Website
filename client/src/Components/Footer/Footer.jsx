@@ -71,8 +71,6 @@ function Footer() {
         <img className='sm:w-4' src={cicon} alt="" />
         <p className='text-white sm:text-sm sm:text-center'>2023 Redwolf, All Rights Reserved</p>
       </div>
-      <div className='bg-white sm:w-full sm:h-[1rem]'>
-      </div>
     </div>
   )
 }
