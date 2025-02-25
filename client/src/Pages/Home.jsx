@@ -15,7 +15,6 @@ function Home() {
       <Section />
       <ProductList />
       <HomeCategory />
-      <PressLogos />
       <Description />
     </div>
   )
